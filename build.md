@@ -1,5 +1,6 @@
 Music: 8.05.51  
 Reddit: 2024.17.0  
+SolidExplorer: 2.8.61  
 Twitch: 24.4.0  
 YouTube: 20.12.46  
 
