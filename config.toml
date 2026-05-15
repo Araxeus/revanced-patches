@@ -47,15 +47,41 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [Twitch]
+patches-source = "RookieEnough/De-Vanced"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "De-Vanced"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 
+# [Twitter]
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+# uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+# dpi = "120-640dpi"
+
 [Twitter]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+patches-source = "crimera/piko"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Piko"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
-dpi = "120-640dpi"
+# version = "11.81.0-release.0"
+
+[CamScanner]
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "hoo-dles"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/intsig-pte/camscanner-phone-pdf-creator/"
+uptodown-dlurl = "https://camscanner.en.uptodown.com/android"
+
+# [SolidExplorer]
+# apkmirror-dlurl = "https://apkmirror.com/apk/neatbytes/solid-explorer-beta/"
+# uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
 
 [SolidExplorer]
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "hoo-dles"
 apkmirror-dlurl = "https://apkmirror.com/apk/neatbytes/solid-explorer-beta/"
 uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
 
@@ -64,7 +90,13 @@ enabled = false
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 included-patches = "'SIM spoof'"
 
+# [Messenger]
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+# arch = "arm64-v8a"
+
 [Messenger]
-enabled = false
+patches-source = "RookieEnough/De-Vanced"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "De-Vanced"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 arch = "arm64-v8a"
